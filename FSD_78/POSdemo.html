@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid green;
+            background-color: lightgreen;
+            height: 200px;
+            width: 200px;
+        }
+
+        #b1{
+            position:static;
+            /* postion: static/ relative/absolute/fixed/sticky
+            byDefault is static  */
+            left: 200px;
+        }
+        #b2{
+            position:relative;
+            /* relative means it moves WRT itself */
+            left: 0px;
+            top: 0px;
+        }
+        #b3{
+            position:absolute;
+            /* absolute means it moves WRT the nearest positioned parent if parent doesnot exist then it align WRT browswer */
+            bottom: 0px;
+            right: 0px;
+        }
+        #b4{
+            position: relative;
+        }
+        #c4{
+            border: 2px solid red;
+            background-color: pink;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            bottom: 0px;
+            right:0px;
+        }
+        #b5{
+            /* position: fixed; */
+            left: 100px;
+            top: 50px;
+            /* fixed element apppers on top(above) of all other element */
+        }
+        #b6{
+            border: 2px solid blue;
+            height: 300px;
+            width: 400px;
+            overflow: auto;
+        }
+        #c6{
+            border: 2px solid gold;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: sticky;
+            /* sticy----> scroll */
+            top: 5px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="b1">hello 1</div>
+    <div class="box" id="b2">hello 2</div>
+    <div class="box" id="b3">hello 3</div>
+    <div class="box" id="b4">hello 4
+        <div id="c4">C4</div>
+    </div>
+    <div class="box" id="b5">hello 5</div>
+    <div id="b6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis aut eaque officiis porro tenetur illum tempore sit autem blanditiis molestias delectus a laborum omnis minima similique in perferendis rem itaque quo voluptatibus aliquam, soluta ipsum! Maiores nesciunt aliquam magni accusamus aspernatur laudantium, nobis libero dolor pariatur veniam eveniet quae itaque tempora temporibus minus illo ut. Doloremque dolorem fugiat impedit asperiores facilis natus quasi. Doloremque, explicabo accusamus exercitationem animi aspernatur in ratione quaerat voluptatem mollitia ipsa aliquam magni dicta soluta nesciunt. Pariatur, iusto magni accusamus aliquid enim dignissimos libero provident autem facere quam, deserunt, rerum debitis natus! Placeat enim tempora repudiandae minus reprehenderit ratione cumque maiores ad, pariatur recusandae ipsam dolores quas reiciendis perferendis sunt quos! Ducimus explicabo in dolorum deserunt rem, incidunt, laboriosam molestias labore tempore architecto voluptatum quae tenetur magni velit omnis. Facilis aut molestiae, corporis deserunt obcaecati odit sit nobis earum sunt reiciendis. Repudiandae, veniam inventore. Veritatis minus fugiat nulla, pariatur temporibus magni earum. Nam aliquid earum aliquam tenetur eveniet consequatur amet quos! Excepturi quo officia laudantium nam vero accusantium molestias dicta amet, voluptas voluptates ipsa voluptatum quibusdam voluptatibus nostrum modi tempora nobis facilis totam magnam maiores soluta eaque vel. Earum, cupiditate necessitatibus? Repellendus consequuntur quibusdam quo voluptas quidem non, delectus reprehenderit enim deleniti, rem reiciendis natus totam error alias dolorem! Velit, porro. Expedita, eius autem. Quas reiciendis beatae perferendis quod maxime placeat iusto dolore nisi laborum! Ipsum maiores autem pariatur sed odit natus, cum id aspernatur suscipit! Rem temporibus repellat quisquam nesciunt exercitationem autem possimus cumque aperiam labore vel omnis quod, non dolorem laboriosam placeat deleniti alias recusandae, reiciendis cum eaque. Autem cum earum quasi sapiente vero. Fuga voluptates harum vero. Fuga, molestiae possimus odio fugiat mollitia nisi repellendus quisquam velit sint! Ea dignissimos vero sequi sit est velit, eius dolorem ratione earum natus excepturi quam ipsum?
+        <div id="c6">I will stick</div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia optio est delectus, magnam facere repellendus reprehenderit eligendi maxime dolore! Consequuntur officia non nobis. Eligendi incidunt iste asperiores saepe iure delectus, illo, voluptatem quisquam cupiditate, quos beatae ea minus architecto. Quas inventore expedita iure soluta, saepe omnis ab eum facilis repellendus aliquid tempora laborum rem corrupti deleniti nihil. Corrupti velit sapiente et quod? Porro quidem iusto libero consequuntur commodi nostrum minus sit sint architecto itaque culpa neque, asperiores ad maiores necessitatibus sequi incidunt molestiae! Necessitatibus architecto inventore aliquid corporis atque quas nostrum quo? Earum totam debitis distinctio quisquam assumenda itaque est? Quo modi impedit veniam quos vel nulla autem sed, officiis vero perspiciatis illo adipisci commodi velit aliquam, amet dignissimos unde dolorum aspernatur, eligendi excepturi tempore! Ducimus officia enim necessitatibus impedit quidem et minima, ipsa eos expedita mollitia consequatur sapiente cum laboriosam, provident porro animi qui maxime amet aperiam rerum, ea ipsum! Enim architecto nemo mollitia earum odit dolorem, possimus cupiditate iste. Commodi praesentium, veritatis quas doloremque adipisci deserunt numquam ipsam ipsa non, pariatur nemo aliquid recusandae incidunt optio dolore? Distinctio recusandae fugiat rem voluptate sunt illo sapiente corrupti repellendus commodi. Voluptatum impedit dicta ratione voluptatem eveniet magnam voluptate, vel excepturi quis minus eius reprehenderit assumenda veritatis, ut id doloremque libero maiores quam accusamus incidunt animi quo perspiciatis architecto nihil. Odit harum veniam quos, omnis reiciendis minima non. Aliquam libero vitae quae animi, repellendus quaerat, illum hic id commodi fugit et numquam tempore rerum consectetur deserunt at ea. Consequuntur aliquam aperiam eos. Incidunt deserunt dignissimos error aspernatur atque soluta suscipit culpa, officia saepe maxime, ratione nisi quae fugiat voluptatum? Eveniet quas aperiam soluta repudiandae ut animi ducimus, exercitationem odit eum. Delectus, at voluptas? Repudiandae commodi fugiat debitis ad autem doloremque non natus iste assumenda ipsum nemo, deleniti ullam, qui totam facere.
+    </div>
+
+</body>
+</html>
